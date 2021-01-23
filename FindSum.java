@@ -70,7 +70,6 @@ public class FindSum {
 
     public static boolean sum(List<Integer> lijst, int index) {
         if (lijst.size() == 0 || index < 2 || index > lijst.size() - 1) {
-            
             return false;
         }
         int verschil = lijst.get(index) - lijst.get(0);
